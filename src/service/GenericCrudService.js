@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default class GenericCrudService {
-    url = "http://localhost:8080/api/";
+    url = "https://db-recetario.herokuapp.com/api/";
 
     async getAll(resource) {
         return await axios.get(this.url + resource);
