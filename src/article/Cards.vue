@@ -3,7 +3,7 @@
         <Card
             v-for="resource in resources"
             :key="resource.id"
-            class="p-col-10 p-md-5 p-mt-3 p-mb-2 animate__animated animate__faster animate__zoomIn"
+            class="p-offset-lg-1 p-col-10 p-md-5 p-lg-3 p-mt-3 p-mb-2 animate__animated animate__faster animate__zoomIn"
         >
             <template #header>
                 <img
