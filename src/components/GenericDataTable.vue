@@ -1,21 +1,23 @@
 <template>
-    <DataTable
-        :value="resources"
-        :paginator="true"
-        :rows="5"
-        paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
-        responsiveLayout="scroll"
-        selectionMode="single"
-        dataKey="id"
-    >
-        <Column
-            v-for="col in columns"
-            :field="col.field"
-            :header="col.header"
-            :key="col.field"
-            :sortable="true"
-        />
-    </DataTable>
+    <div>
+        <DataTable
+            :value="resources"
+            :paginator="true"
+            :rows="5"
+            paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
+            responsiveLayout="stack"
+            selectionMode="single"
+            dataKey="id"
+        >
+            <Column
+                v-for="col in columns"
+                :field="col.field"
+                :header="col.header"
+                :key="col.field"
+                :sortable="true"
+            />
+        </DataTable>
+    </div>
 </template>
 
 <script>
