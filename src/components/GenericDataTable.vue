@@ -6,6 +6,7 @@
             :rows="5"
             paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
             responsiveLayout="stack"
+            breakpoint="640px"
             selectionMode="single"
             dataKey="id"
         >
