@@ -4,7 +4,8 @@
         :paginator="true"
         :rows="5"
         paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
-        class="p-restable-striped"
+        stripedRows
+        responsiveLayout="stack"
         selectionMode="single"
         dataKey="id"
     >
