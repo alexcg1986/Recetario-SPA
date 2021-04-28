@@ -1,5 +1,5 @@
 <template>
-    <Panel v-model:header="resourceHeader" class="p-col-12 p-lg-9 p-mx-auto">
+    <Panel v-model:header="resourceHeader" class="p-col-12 p-mx-auto">
         <crud-menu-bar
             @clickCreate="this.create()"
             @clickEdit="this.edit()"
