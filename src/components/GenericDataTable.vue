@@ -1,6 +1,5 @@
 <template>
-    <div class="card">
-        <DataTable
+    <DataTable
             :value="resources"
             :paginator="true"
             :rows="5"
@@ -18,8 +17,7 @@
                 :key="col.field"
                 :sortable="true"
             />
-        </DataTable>
-    </div>
+    </DataTable>
 </template>
 
 <script>
